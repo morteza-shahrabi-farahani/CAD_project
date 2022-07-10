@@ -155,6 +155,38 @@ begin
 	
 end function sqrt;
 
+function log2ceil (n : integer) return integer is
+
+    variable m, p : integer;
+    begin
+    m := 0;
+    p := 1;
+    for i in 0 to n loop
+        if p < n then
+            m := m + 1;
+            p := p * 2;
+        end if;
+    end loop;
+    return m;
+
+end log2ceil;
+
+function log2floor (n : integer) return integer is
+
+    variable m, p : integer;
+    begin
+    m := -1;
+    p := 1;
+        for i in 0 to n loop
+            if p <= n then
+                m := m + 1;
+                p := p * 2;
+            end if;
+        end loop;
+    return m;
+    
+end log2floor;
+
 begin
 
 
@@ -204,7 +236,7 @@ begin
 	when "010" => result0 := first_var * second_var;
 	when "011" => result0 := division(first_var,second_var);
 	when "100" => result0 := sqrt(first_var);
-	when "101" => result0 := first_var - second_var;
+	when "101" => result0 := log2floor(first_var);
 	when "110" => result0 := first_var + second_var;
 	when others => result0 := first_var + second_var;
 	
@@ -219,7 +251,7 @@ begin
 	when "010" => result1 := third_var * forth_var;
 	when "011" => result1 := division(third_var,forth_var);
 	when "100" => result1 := sqrt(third_var);
-	when "101" => result1 := third_var - forth_var;
+	when "101" => result1 := log2floor(third_var);
 	when "110" => result1 := third_var + forth_var;
 	when others => result1 := third_var + forth_var;
 	
@@ -234,7 +266,7 @@ begin
 	when "010" => final_result := result0 * result1;
 	when "011" => final_result := division(result0,result1);
 	when "100" => final_result := sqrt(result0);
-	when "101" => final_result := result0 + result1;
+	when "101" => final_result := log2floor(result0);
 	when "110" => final_result := result0 + result1;
 	when others => final_result := result0 + result1;
 	
