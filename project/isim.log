@@ -1,0 +1,24 @@
+ISim log file
+Running: C:\Users\mshah\Downloads\Super_ALU\project\ALU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mshah/Downloads/Super_ALU/project/ALU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /alu/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /alu/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /alu/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /alu/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# isim force add /alu/input 1010101000101000 -radix bin
+# run 1.00us
+# isim force add /alu/operands 00000000 -radix bin
+# run all
+# run 1.00us
+# run 1.00us
+# isim force add /alu/input 10101010101010101010101010101010 -radix bin
+/alu/input: Could not convert given string value 10101010101010101010101010101010 to an appropriate value.
+# isim force add /alu/input 1010101010101010101010101010100 -radix bin
+# run 1.00us
