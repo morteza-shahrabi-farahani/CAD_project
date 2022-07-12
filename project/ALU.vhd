@@ -99,6 +99,527 @@ begin
 	
 end function division;
 
+function power(number1,number2: integer) return integer is
+variable result : integer:= 1;
+variable cnt : integer := 1; 
+variable n : integer := number2;
+begin
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF; 
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF; 
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF; 
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;
+IF (cnt <= n) THEN
+	result := result * number1;
+	cnt := cnt + 1;
+END IF;	
+	return result;
+	
+end function power;
+
 
 function sqrt(number: integer) return integer is
 variable result: integer := 0;
@@ -155,6 +676,48 @@ begin
 	
 end function sqrt;
 
+function log2ceil (constant n : integer) return integer is
+
+    variable m, p : integer;
+    begin
+    m := 0;
+    p := 1;
+    for i in 0 to n loop
+        if p < n then
+            m := m + 1;
+            p := p * 2;
+        end if;
+    end loop;
+    return m;
+
+end log2ceil;
+
+
+function log2floor( n : integer ) return integer is
+   variable result : integer := 0;
+   variable reminder : integer := n; 
+   begin 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if;
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if;
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if;
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    if ( reminder/2 >= 1) then reminder := reminder /2 ; result := result + 1;
+    end if; 
+    return result;
+end log2floor;
+
 begin
 
 
@@ -203,9 +766,9 @@ begin
 	when "001" => result0 := first_var - second_var;
 	when "010" => result0 := first_var * second_var;
 	when "011" => result0 := division(first_var,second_var);
-	when "100" => result0 := sqrt(first_var);
-	when "101" => result0 := first_var - second_var;
-	when "110" => result0 := first_var + second_var;
+	when "100" => result0 := power(first_var,second_var);
+	when "101" => result0 := log2floor(first_var);
+	when "110" => result0 := sqrt(first_var);
 	when others => result0 := first_var + second_var;
 	
 	end case;
@@ -218,9 +781,9 @@ begin
 	when "001" => result1 := third_var - forth_var;
 	when "010" => result1 := third_var * forth_var;
 	when "011" => result1 := division(third_var,forth_var);
-	when "100" => result1 := sqrt(third_var);
-	when "101" => result1 := third_var - forth_var;
-	when "110" => result1 := third_var + forth_var;
+	when "100" => result1 := power(third_var,forth_var);
+	when "101" => result1 := log2floor(third_var);
+	when "110" => result1 := sqrt(third_var);
 	when others => result1 := third_var + forth_var;
 	
 	end case;
@@ -233,9 +796,9 @@ begin
 	when "001" => final_result := result0 - result1;
 	when "010" => final_result := result0 * result1;
 	when "011" => final_result := division(result0,result1);
-	when "100" => final_result := sqrt(result0);
-	when "101" => final_result := result0 + result1;
-	when "110" => final_result := result0 + result1;
+	when "100" => final_result := power(result0,result1);
+	when "101" => final_result := log2floor(result0);
+	when "110" => final_result := sqrt(result0);
 	when others => final_result := result0 + result1;
 	
 	
